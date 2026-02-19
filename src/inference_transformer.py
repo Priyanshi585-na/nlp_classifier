@@ -34,5 +34,3 @@ def predict(text):
         "prediction":label_map[pred],
         "confidence":float(probs[0][pred])
     }
-
-print(predict("This paper proposes a neural network architecture for optimization..."))
